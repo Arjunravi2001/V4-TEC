@@ -28,26 +28,6 @@
         <link href="css/templatemo-nomad-force.css" rel="stylesheet">
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-player/1.4.3/lottie-player.js" integrity="sha512-gloNJjJNXOqLPOVxOJ/Sg9VN4jSPZpDdEQC+CDP0TczZ6OaOk0Ru1daFEOT/XAJY7fYABwFWVRXOx4HMFr6+lA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-        <style>
-            .logo1{
-                max-height: 100%;
-                max-width: 100%;
-                width:100%;
-                height:60px;
-                object-fit: contain; /* Do not scale the image */
-                object-position: center; /* Center the image within the element */
-            }
-            .logotext{
-                font-family:  'Open Sans';
-                font-weight: bold;
-            }
-            .booktext{
-                font-size: small; 
-                padding-left: 35px;
-                font-weight: bold;
-            }
-        </style>
     </head>
     
     <body>
@@ -67,29 +47,23 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav mx-auto logotext" >
+                    <div class="collapse navbar-collapse navalign" id="navbarNav">
+                        <ul class="navbar-nav mx-auto logotext justify-content-end" >
                             <li class="nav-item active">
                                 <a class="nav-link" href="#hero">HOME</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#technologies" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    TECHNOLOGIES
-                                </a>
-                            </li>
-
                             <li class="nav-item ">
-                                <a class="nav-link" href="#about">OUR STUDIO</a>
+                                <a class="nav-link" href="#about">ABOUT US</a>
                             </li>
-
                             <li class="nav-item">
-                                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                                <a class="nav-link" href="#technologies">TECHNOLOGIES</a>
                             </li>
-
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">OUR SERVICES</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#news">NEWS & EVENTS</a>
                             </li>
-
                             <li class="nav-item">
                                 <a class="nav-link contactCSS" href="#contact">CONTACT US</a>
                             </li>
@@ -123,16 +97,16 @@
             <section class="section-padding pb-0" id="about">
                 <div class="container mb-5 pb-lg-5">
                     <div class="row">
-                        <div class="col-12">
-                            <h2 class="mb-3" data-aos="fade-up">Let us create...</h2>
+                        <div class="col-lg-6 col-12">
+                            <h3 class="mb-3" data-aos="fade-up">All ABOUT US...</h3>
+                        
+                            <p data-aos="fade-up" data-aos-delay="500">We are a digital transformation consultancy and engineering company that delivers cutting edge solutions for global organizations and technology startups. We have been helping companies and established brands reimagine their business through digitalization.</p>
                         </div>
 
-                        <div class="col-lg-6 col-12 mt-3 mb-lg-5">
-                            <p class="me-4" data-aos="fade-up" data-aos-delay="300">You may contribute <a rel="nofollow" href="http://paypal.me/templatemo" target="_blank">a small amount</a> via PayPal if <a rel="nofollow" href="https://templatemo.com/tm-567-nomad-force" target="_parent">Nomad Force Template</a> is useful for you. This will absolutely help us to keep creating better CSS templates for you. <br><br>We provide you 100% free templates on TemplateMo website. Images are provided by FreePik and Unsplash websites.</p>
-                        </div>
-
-                        <div class="col-lg-6 col-12 mt-lg-3 mb-lg-5">
-                            <p data-aos="fade-up" data-aos-delay="500">This Bootstrap 5 layout is free to use for your business. You are allowed to edit it in any way you like. However, please do not redistribute this template ZIP file for a template download purpose on any other website such as Free CSS collections.</p>
+                        <div class="col-lg-6 col-12">
+                            <h3 class="mb-3" data-aos="fade-up">MISSION & VISION...</h3>
+                        
+                            <p data-aos="fade-up" data-aos-delay="500">Our mission is to help enterprises accelerate adoption of new technologies, untangle complex issues that always emerge during digital evolution, and orchestrate ongoing innovation. It’s a consumer-oriented app or a transformative enterprise-class solution, the company leads the process from ideation and concept to delivery, and provides ongoing support.</p>
                         </div>
 
                     </div>
@@ -237,6 +211,7 @@
                     <div class="col pb-5 d-flex align-items-center justify-content-center" data-aos="fade-up">
                         <div class="book">
                             <p class="booktext">At V4infotec we believe that Distributed Ledger Technologies (DLTs) </p>
+                            <a href="Blockchain.html">more <img class="arrowimg" src="./images/next.png" alt=""> </a>
                             <div class="cover">
                                 <lottie-player src="./Json/BlockChain.json" speed="1" class="Services-banner" loop="" autoplay="" background="transparent" ></lottie-player>
                                 <p>Blockchain</p>
@@ -246,6 +221,7 @@
                     <div class="col pb-5 d-flex align-items-center justify-content-center" data-aos="fade-up" >
                         <div class="book">
                             <p class="booktext">Your business may depend on different cloud models. Migrate all of your operations to cloud </p>
+                            <a href="CC.html"><span>more<img class="arrowimg" src="./images/next.png" alt=""></span>   </a>
                             <div class="cover">
                                 <lottie-player src="./Json/CC.json" speed="1" class="Services-banner" loop="" autoplay="" background="transparent" ></lottie-player>
                                 <p>Cloud Computing</p>
@@ -254,7 +230,8 @@
                     </div>
                     <div class="col pb-5 d-flex align-items-center justify-content-center" data-aos="fade-up" >
                         <div class="book">
-                            <p class="booktext">V4infotec focuses on understanding the patterns and underlying mechanisms of our field of study. </p>
+                            <p class="booktext"> V4infotec focuses on understanding the patterns and underlying mechanisms of our field of study. </p>
+                            <a href="AI.html">more <img class="arrowimg" src="./images/next.png" alt=""> </a>
                             <div class="cover">
                                 <lottie-player src="./Json/AI.json" speed="1" class="Services-banner" loop="" autoplay="" background="transparent" ></lottie-player>
                                 <p>Artificial Intelligence</p>
@@ -264,6 +241,7 @@
                     <div class="col pb-5 d-flex align-items-center justify-content-center" data-aos="fade-up" >
                         <div class="book">
                             <p class="booktext">Engineers of V4infotec IoT, have the experience of working with all technical platforms </p>
+                            <a class="" href="IOT.html">more <img class="arrowimg" src="./images/next.png" alt=""></a>
                             <div class="cover">
                                 <lottie-player src="./Json/IOT.json" speed="1" class="Services-banner" loop="" autoplay="" background="transparent" ></lottie-player>
                                 <p>Internet Of Things</p>
@@ -292,6 +270,9 @@
                                     <p class="text-danger">Branding</p>
                                 </div>
                             </div> 
+
+                            <div class="portfolio-thumb mb-5" data-aos="fade-up">
+                            </div>
 
                             <div class="portfolio-thumb" data-aos="fade-up">
                                 <a href="images/portfolio/severin-candrian-nn3uIZqmUtE-unsplash.jpeg" class="image-popup">
