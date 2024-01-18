@@ -1411,7 +1411,7 @@ strong {
   .privacy-cookie a:hover {
     text-decoration: underline;
   }
-  .contact-us #email {
+  #emailfooter {
     width: 200px;
     padding: 5px;
     border: none;
