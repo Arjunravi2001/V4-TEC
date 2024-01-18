@@ -1378,11 +1378,6 @@ strong {
     margin-top: 10px;
   }
   
-  #email {
-    width: 200px;
-    padding: 5px;
-  }
-  
   .copyright {
     display: flex;
     justify-content: space-between;
@@ -1416,7 +1411,7 @@ strong {
   .privacy-cookie a:hover {
     text-decoration: underline;
   }
-  #email {
+  .contact-us #email {
     width: 200px;
     padding: 5px;
     border: none;
