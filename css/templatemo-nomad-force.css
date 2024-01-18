@@ -1402,7 +1402,14 @@ strong {
     
   }
   
-
+  #emailfooter {
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #FFA500; /* Orange color */
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+  
   .privacy-cookie a {
     color: black;
     text-decoration: none;
@@ -1410,12 +1417,5 @@ strong {
   
   .privacy-cookie a:hover {
     text-decoration: underline;
-  }
-  #emailfooter {
-    width: 200px;
-    padding: 5px;
-    border: none;
-    border-bottom: 2px solid #FFA500; /* Orange color */
-    margin-bottom: 10px; /* Adjust as needed */
   }
   
